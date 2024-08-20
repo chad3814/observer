@@ -129,5 +129,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-observer.js
-observer.d.ts
+dist/**

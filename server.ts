@@ -1,6 +1,6 @@
 import Fastify from 'fastify';
-import { pullImage, removeContainer, startContainer, stopContainer } from './docker';
-import config from './config';
+import { pullImage, removeContainer, startContainer, stopContainer } from './docker.js';
+import config from './config.js';
 
 const server = Fastify({
     logger: true,

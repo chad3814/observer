@@ -1,5 +1,5 @@
 import Docker from 'dockerode';
-import config from './config';
+import config from './config.js';
 
 const docker = new Docker();
 

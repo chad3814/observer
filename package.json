@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "main": "observer.js",
+  "main": "dist/server.js",
   "dependencies": {
     "dockerode": "^4.0.2",
     "fastify": "^4.28.1"
